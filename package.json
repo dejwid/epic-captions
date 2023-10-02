@@ -1,0 +1,30 @@
+{
+  "name": "epic-captions",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.420.0",
+    "@aws-sdk/client-transcribe": "^3.418.0",
+    "@ffmpeg/ffmpeg": "^0.12.6",
+    "@ffmpeg/util": "^0.12.1",
+    "aws-crt": "^1.18.0",
+    "axios": "^1.5.1",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest"
+  }
+}
